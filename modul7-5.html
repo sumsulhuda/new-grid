@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> modul-5</title>
+    <style>
+       .field{
+        border: 1px solid black;
+       }
+       .field:hover .bat{
+        transform: rotate(-60deg);
+        transform-origin: top right;
+       }
+       .bat{
+        transition: transform 1s ease-in;
+       }
+ 
+       .field:hover .ball{
+        transform: translate(400px, -100px);
+     
+       }
+       
+       .ball{
+        border: 1px solid rgb(39, 235, 13)(0, 0, 0);
+        height: 50px;
+        width: 50px;
+        border-radius: 25px;
+        background-color: red;
+       position:relative;bottom: 51px;
+       position:relative;left: 520px;
+       transition: transform 4s ease-out 1s;
+    }
+    </style>
+</head>
+<body>
+    <div class="field">
+        <img class="bat" src="images/bat_2957539.jpg" alt="">
+        <div class="ball"> </div>
+    </div>
+</body>
+</html>

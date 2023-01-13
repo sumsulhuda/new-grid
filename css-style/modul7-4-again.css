@@ -1,0 +1,18 @@
+.container, .all-box{
+    border: 2px solid black;
+    width: 150px;
+    height: 150px;
+   
+
+}
+.container{
+     background-color: aqua;
+    }
+
+.all-box{
+    background-color: burlywood;
+    transform: translateY(-100px) scale(.6) rotate(45deg)
+    
+    
+}
+
